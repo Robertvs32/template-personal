@@ -1,24 +1,24 @@
 <?php
 $servicos = [
     [
-        'titulo' => 'Pagamento PIX', 
-        'desc' => 'Dinheiro na conta de forma imediata e segura.', 
-        'icone' => './includes/servicos/icons/floco-de-neve.png'
+        'titulo' => 'Consultoria online', 
+        'desc' => 'Atendimento 100% online, desde o a estruturacao do planejamento de treino, acompanhamento mensal e possiveis ajustes, sempre levando em consideracao o objetivo atual do cliente.', 
+        'icone' => './includes/servicos/icons/online.png'
     ],
     [
-        'titulo' => 'Pagamento PIX', 
-        'desc' => 'Dinheiro na conta de forma imediata e segura.', 
-        'icone' => './includes/servicos/icons/floco-de-neve.png'
+        'titulo' => 'Personal presencial', 
+        'desc' => 'Atendemos de forma presencial, auxiliando lado a lado na execucao dos exercicios, garantindo que o movimento esteja adequado, evitando lesoes', 
+        'icone' => './includes/servicos/icons/treino.png'
     ],
     [
-        'titulo' => 'Pagamento PIX', 
-        'desc' => 'Dinheiro na conta de forma imediata e segura.', 
-        'icone' => './includes/servicos/icons/floco-de-neve.png'
+        'titulo' => 'Hipertrofia e emagrecimento', 
+        'desc' => 'Especialista em recomposicao corporal, reduzindo o percentual de gordura e aumentando a massa magra, melhorando a estetica do deu fisico, disposicao, bem estar e saude mental.', 
+        'icone' => './includes/servicos/icons/hipertrofia.png'
     ],
     [
-        'titulo' => 'Pagamento PIX', 
-        'desc' => 'Dinheiro na conta de forma imediata e segura.', 
-        'icone' => './includes/servicos/icons/floco-de-neve.png'
+        'titulo' => 'Correcao de desvios', 
+        'desc' => 'Avaliamos sua postura e estruturamos um planejamento assertivo, com objetivo de melhorar o equilibrio das estruturas do seu corpo, fortalecendo partes fracas e alongamento possiveis encurtamentos musculares', 
+        'icone' => './includes/servicos/icons/postura.png'
     ],
 ];
 ?>

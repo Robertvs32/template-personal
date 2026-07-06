@@ -1,5 +1,5 @@
 const navbar = document.getElementById('navbar');
-const hamburger = document.getElementById('hamburger');
+const hamburguer = document.getElementById('hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const arrayBtnsLink = document.querySelectorAll('.btnLink');
 const bar = document.querySelectorAll('.bar')
@@ -25,7 +25,7 @@ window.addEventListener('scroll', () => {
         
     }else{//SUBINDO A TELA
         navbar.classList.remove('active');
-        navbar.style.backgroundColor = "rgb(0, 49, 184)"
+        navbar.style.backgroundColor = "rgba(0, 0, 0, 0.8)"
     }
 
     scrollAntigo = window.scrollY;
@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Abrir/Fechar Menu Mobile
-hamburger.addEventListener('click', () => {
+hamburguer.addEventListener('click', () => {
     ativoMobile = !ativoMobile;
     
     if(ativoMobile){
@@ -46,14 +46,24 @@ hamburger.addEventListener('click', () => {
         });
     }
 
-    hamburger.classList.toggle('is-active');
+    hamburguer.classList.toggle('is-active');
     navMenu.classList.toggle('show');
 });
 
 arrayBtnsLink.forEach(item => {
     item.addEventListener('click', () => {
         ativoMobile = false;
-        hamburger.classList.toggle('is-active');
+        hamburguer.classList.toggle('is-active');
         navMenu.classList.toggle('show');
+
+        if(ativoMobile){
+            bar.forEach(item => {
+                item.style.backgroundColor = "black"
+            });
+        }else{
+            bar.forEach(item => {
+                item.style.backgroundColor = "white"
+            });
+        }
     })
 })

@@ -29,7 +29,7 @@
 
 .process-item:hover {
     transform: translateY(-5px);
-    border-color: #d4af37; /* Dourado sutil no hover */
+    border-color: #ff0077; /* Dourado sutil no hover */
 }
 
 /* Número em marca d'água no fundo do card */

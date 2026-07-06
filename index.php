@@ -1,6 +1,6 @@
 <?php
-    $titulo = "Nutricionista esportivo em Guarulhos";
-    $descricao = "aaaaaaaa";
+    $titulo = "Daiane Tavares - Personal Trainer em Campinas";
+    $descricao = "Planejamento ";
 ?>
 
 <!DOCTYPE html>
@@ -17,16 +17,15 @@
     <?php include('./includes/navbar/navbar.php')?>
     <?php include('./includes/hero/hero.php')?>
     <?php include('./includes/sobre/sobre.php')?>
-    <?php include('./includes/depoimentos/depoimentos.php')?>
     <?php include('./includes/servicos/servicos.php')?>
     <?php include('./includes/features/features.php')?>
     <?php include('./includes/processos/processos.php')?>
     <?php include('./includes/fotosGrid/fotosGrid.php')?>
     <?php include('./includes/faq/faq.php')?>
-    <?php include('./includes/localizacao/localizacao.php')?>
+    <?php include('./includes/depoimentos/depoimentos.php')?>
+    <?php include('./includes/mapaInteiro/mapaInteiro.php')?>
     <?php include('./includes/footer/footer.php')?>
     <?php include('./includes/whatsapp/whatsapp.php')?>
-    
 
 </body>
 </html>

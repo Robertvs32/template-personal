@@ -26,6 +26,10 @@ body{
     transition: max-height 1s ease, padding 1s ease, background-color 1s ease;
 }
 
+.logoNav{
+    width: 200px;
+}
+
 /* Estilo quando scrollar */
 .navbar.active {
     padding: 0px;
@@ -47,7 +51,7 @@ body{
 .logo {
     font-size: 1.5rem;
     font-weight: 800;
-    color: #ffffff;
+    color: #ff0077;
     text-decoration: none;
     letter-spacing: -1px;
 }
@@ -61,14 +65,14 @@ body{
 
 .nav-menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ff0077;
     font-weight: 500;
     font-size: 0.95rem;
     transition: color 0.3s;
 }
 
 .nav-menu a:hover {
-    color: #00acfc;
+    color: #ffffff;
 }
 
 .btn-nav {

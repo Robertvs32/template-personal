@@ -1,16 +1,19 @@
 <?php
-    $empresaNome = "SFG Consultoria";
+    $logo = "./includes/navbar/logo/logo.svg";
     $navLinks = [
-        ['nome' => 'Início', 'url' => 'index.php'],
         ['nome' => 'Serviços', 'url' => '#servicos'],
-        ['nome' => 'Portfólio', 'url' => '#portfolio'],
-        ['nome' => 'Contato', 'url' => '#contato'],
+        ['nome' => 'Processos', 'url' => '#processos'],
+        ['nome' => 'Alunos', 'url' => '#alunos'],
+        ['nome' => 'Depoimentos', 'url' => '#depoimentos'],
+        ['nome' => 'Localizacao', 'url' => '#localizacao'],
     ];
 ?>
 
 <nav class="navbar" id="navbar">
     <div class="container">
-        <a href="#" class="logo"><?php echo $empresaNome; ?></a>
+        <a href="#" class="logo">
+            <img class="logoNav" src="<?php echo $logo?>" alt="Logo Daiane Tavares">
+        </a>
 
         <ul class="nav-menu">
             <?php foreach($navLinks as $link): ?>

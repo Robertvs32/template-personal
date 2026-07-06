@@ -1,14 +1,18 @@
 <?php
 // Dados do cliente
-$sobreTitulo = "Mais de 15 anos atendendo o mercado imobiliario!";
+$sobreTitulo = "Mais de 15 anos, auxiliando pessoas a mudarem suas vidas atraves do treino!";
 
-$sobreTexto = "Tradição e Segurança no Mercado Imobiliário. Com mais de 15 anos de experiência, oferecemos consultoria especializada em todos os tipos de imóveis, residenciais e comerciais. Atendimento exclusivo e suporte completo para garantir uma transação segura e sem burocracia. Fale com quem entende e realize seu melhor negócio";
+$sobreTexto = "Profissional formada pela universidade (nome universidade) no ano de (ano de formacao), com especializacao em (especializacao) e diversos artigos publicados. <br><br> São mais de 15 anos de estrada, dedicados a entender que a atividade física vai muito além da estética: ela é a chave para a longevidade, a saúde mental e a alta performance no dia a dia.
 
-$sobreImagem = "./includes/sobre/images/silvio.jpeg";
+Ao longo dessa jornada, centenas de vidas foram transformadas. Cada rotina ajustada, cada meta batida e cada dor superada são o combustível que move esse trabalho diário. Afinal, cuidar do corpo de alguém é uma responsabilidade imensa, e a experiência traz a segurança de saber exatamente o que funciona para cada individualidade.";
+
+$sobreImagem = "./includes/sobre/images/daiane.jpg";
+
+$titleProf = "Daiane Tavares";
 
 // Array de estatísticas (Dinamismo!)
 $stats = [
-    ['valor' => '500+', 'label' => 'Contratos assinados'],
+    ['valor' => '500+', 'label' => 'Alunos'],
     ['valor' => '100%', 'label' => 'Satisfação'],
     ['valor' => '24/7', 'label' => 'Suporte'],
 ];
@@ -26,7 +30,7 @@ $stats = [
         </div>
 
         <div class="sobre-content">
-            <span class="sobre-tag">Silvio Guimaraes</span>
+            <span class="sobre-tag"><?php echo $titleProf?></span>
             <h2 class="sobre-title"><?php echo $sobreTitulo; ?></h2>
             <p class="sobre-description"><?php echo $sobreTexto; ?></p>
 
@@ -39,7 +43,7 @@ $stats = [
                 <?php endforeach; ?>
             </div>
 
-            <a href="#contato" class="sobre-link">Saiba mais sobre nossa história →</a>
+            <!-- <a href="#contato" class="sobre-link">Saiba mais sobre nossa história →</a> -->
         </div>
     </div>
 </section>

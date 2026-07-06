@@ -1,10 +1,31 @@
 <?php
-$depoimentos = [
-    ['nome' => 'Ana Paula', 'cargo' => '', 'texto' => 'A experiência foi impecável. Profissionalismo raro.', 'foto' => 'https://i.pravatar.cc/100?u=1', 'estrelas' => 5],
-    ['nome' => 'Ricardo Santos', 'cargo' => '', 'texto' => 'Segurança e agilidade definem o processo.', 'foto' => 'https://i.pravatar.cc/100?u=2', 'estrelas' => 5],
-    ['nome' => 'Cláudia Lima', 'cargo' => '', 'texto' => 'Design limpo e direto. Exatamente o que eu buscava.', 'foto' => 'https://i.pravatar.cc/100?u=3', 'estrelas' => 5],
-    ['nome' => 'Pedro Rocha', 'cargo' => '', 'texto' => 'Atendimento VIP e entrega rápida.', 'foto' => 'https://i.pravatar.cc/100?u=4', 'estrelas' => 5]
-];
+    $depoimentos = [
+        [
+            'nome' => 'Cecilia Amstalden', 
+            'texto' => 'Estou super satisfeita com o trabalho da minha personal trainer Daiane! Ela é super profissional, atenciosa e   orienta muito bem os exercícios, sempre adaptando os treinos de acordo com minhas necessidades e objetivos. Desde que comecei a treinar com ela, notei uma grande melhora na minha força e condicionamento físico. Recomendo muito para quem quer resultados de verdade e um acompanhamento de qualidade.', 
+            'foto' => './includes/depoimentos/imagens/cecilia.png', 
+            'estrelas' => 5 
+        ],
+        [
+            'nome' => 'Genildo Meneses', 
+            'texto' => 'Profissional atenciosa, dedicada, pontual, passa treinos específicos... Se vc procura resultado Daiane Tavares com certeza é a pessoa correta... Sabe oq está dizendo e fazendo!!! Super recomendo!!!', 
+            'foto' => './includes/depoimentos/imagens/genildo.png', 
+            'estrelas' => 5 
+        ],
+        [
+            'nome' => 'Patricia M', 
+            'texto' => 'A Daiane é uma ótima profissional porque entende as necessidades dos alunos e ajusta os treinos às expectativas e necessidades de cada um. Além disso, também trabalha a parte de alimentação e emocional, o que motiva a todos no alcance dos resultados. Nesse quase 1 ano com a Daiane, ela proporcionou não só a minha perda de peso, como devolveu a minha confiança e autoestima.', 
+            'foto' => './includes/depoimentos/imagens/patricia.png', 
+            'estrelas' => 5 
+        ],
+        [
+            'nome' => 'Luiza Gadotti', 
+            'texto' => 'Personal dedicada, competente e atenciosa. Desde que começamos os treinos meu desempenho físico só melhora. Devia ter começado antes!', 
+            'foto' => './includes/depoimentos/imagens/luiza.png', 
+            'estrelas' => 5 
+        ],
+
+    ];
 ?>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -14,7 +35,7 @@ $depoimentos = [
     <div class="containerDepoimentos">
         
         <div class="section-header">
-            <h2>Nossos clientes</h2>
+            <h2>Nossos alunos</h2>
             <p>Depoimentos</p>
         </div>
 

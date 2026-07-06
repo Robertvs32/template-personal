@@ -2,38 +2,38 @@
 $passos = [
     [
         'id' => '01',
-        'icone' => './includes/processos/icons/floco-de-neve.png',
-        'titulo' => 'Avaliação Técnica',
-        'desc' => 'Analisamos suas peças na hora com equipamentos de precisão para identificar o teor do ouro.'
+        'icone' => './includes/processos/icons/alvo.png',
+        'titulo' => 'Alinhamento de objetivo',
+        'desc' => 'Analisamos juntos o melhor caminho para o objetivo que voce deseja.'
     ],
     [
         'id' => '02',
-        'icone' => './includes/processos/icons/floco-de-neve.png',
-        'titulo' => 'Pesagem e Cotação',
-        'desc' => 'Pesamos seu ouro em balanças certificadas e aplicamos a melhor cotação do mercado no dia.'
+        'icone' => './includes/processos/icons/postura.png',
+        'titulo' => 'Analise postural',
+        'desc' => 'Faremos uma analise para identificar possiveis desvios, adequando o treino para melhorar sua postura e garantir integridade de movimento.'
     ],
     [
         'id' => '03',
-        'icone' => './includes/processos/icons/floco-de-neve.png',
-        'titulo' => 'Proposta Justa',
-        'desc' => 'Apresentamos o valor final com total transparência, sem taxas escondidas ou letras miúdas.'
+        'icone' => './includes/processos/icons/planejamento.png',
+        'titulo' => 'Estruturacao de treino',
+        'desc' => 'Apos analisar sua postura, sera feito o planejamento do treino, adequado ao seu objetivo, rotina e horarios.'
     ],
     [
         'id' => '04',
-        'icone' => './includes/processos/icons/floco-de-neve.png',
-        'titulo' => 'Pagamento',
-        'desc' => 'Com tudo aprovado, o dinheiro cai na sua conta de forma imediata e segura antes de você sair.'
+        'icone' => './includes/processos/icons/acompanhamento.png',
+        'titulo' => 'Acompanhamento',
+        'desc' => 'Acompanhamos constantemente sua evolucao, para possiveis adequacoes ou elaboracao de novas estrategias.'
     ]
 ];
 ?>
 
 <link rel="stylesheet" href="./includes/processos/processos.module.css">
 
-<section class="process-section">
+<section class="process-section" id="processos">
     <div class="container-process">
         <div class="section-header" style="text-align: center;">
             <h2 style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; color: #999;">Processo Simples</h2>
-            <p style="font-size: 1.8rem; color: #111; font-weight: 300;">Como vender seu ouro em 4 passos</p>
+            <p style="font-size: 1.8rem; color: #111; font-weight: 300;">Processo simples, mas assertivo!</p>
         </div>
 
         <div class="process-grid">

@@ -1,7 +1,7 @@
 <?php 
-    $numero = '5511945845448';
+    $numero = '5519998213243';
     $texto = rawurlencode("Olá, vim através do site e gostaria de mais informações.");
-    $instagram = "silvio"
+    $instagram = "https://www.instagram.com/daianetavarespersonal/"
 ?>
 
 <link rel="stylesheet" href="./includes/whatsapp/whatsapp.module.css">
@@ -17,7 +17,7 @@
 </a>
 
 <a
-    href="https://instagram.com/<?php echo $instagram;?>"
+    href="<?php  echo $instagram?>"
     class="btn-instagram-flutuante" 
     target="_blank" 
     rel="noopener noreferrer" 

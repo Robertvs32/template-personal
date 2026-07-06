@@ -3,28 +3,28 @@
         'titulo' => 'Dúvidas Frequentes',
         'itens' => [
             [
-                'pergunta' => 'Como saber o valor real para vender ou alugar meu imóvel?',
-                'resposta' => 'O valor é definido por uma análise de mercado que considera a localização, metragem, estado de conservação e o preço médio de imóveis similares na mesma região. O ideal é realizar uma avaliação profissional para não perder oportunidades por preço fora da realidade.'
+                'pergunta' => 'Como funcionam os treinos (Online ou Presencial)?',
+                'resposta' => 'No modelo presencial, eu acompanho você lado a lado durante toda a execução dos exercícios na academia, corrigindo a postura e motivando em tempo real. No modelo online (consultoria), eu monto todo o seu planejamento personalizado através de um aplicativo, com vídeos demonstrativos de cada exercício, e nós fazemos o acompanhamento do seu progresso semanalmente.'
             ],
             [
-                'pergunta' => 'Quais documentos são obrigatórios para a venda?',
-                'resposta' => 'Os documentos essenciais incluem a Matrícula Atualizada do Imóvel (que comprova a propriedade e a ausência de ônus), Certidões Negativas de Débitos de IPTU e Condomínio, além dos documentos pessoais (RG, CPF e comprovante de estado civil) dos proprietários.'
+                'pergunta' => 'Eu nunca treinei na vida. Esse acompanhamento serve para mim?',
+                'resposta' => 'Com certeza! O treino é montado do zero respeitando o seu nível atual. Se você é iniciante, o foco inicial será no aprendizado dos movimentos, ganho de consciência corporal e condicionamento básico, sempre evoluindo no seu ritmo e com total segurança.'
             ],
             [
-                'pergunta' => 'Quais as garantias comuns para locação?',
-                'resposta' => 'As principais garantias são o Fiador (pessoa com imóvel próprio que garante a dívida), o Seguro Fiança (contratado junto a uma seguradora) e a Caução (depósito de até três meses de aluguel, devolvido ao final do contrato).'
+                'pergunta' => 'Em quanto tempo começarei a ver os primeiros resultados?',
+                'resposta' => 'Os resultados variam de pessoa para pessoa, mas geralmente nas primeiras 4 semanas você já começará a notar melhoras significativas na sua disposição, qualidade do sono e força. Mudanças estéticas mais visíveis (como perda de gordura e definição muscular) costumam ficar bem evidentes entre 8 a 12 semanas de constância nos treinos e na alimentação.'
             ],
             [
-                'pergunta' => 'Quem deve pagar o IPTU e o Condomínio no aluguel?',
-                'resposta' => 'Pela Lei do Inquilinato, o proprietário é o responsável original, mas o contrato de locação pode repassar o pagamento do IPTU e das taxas ordinárias de condomínio ao inquilino. Taxas extraordinárias (reformas estruturais e fundo de reserva) são sempre responsabilidade do dono.'
+                'pergunta' => 'Preciso treinar todos os dias para ter resultados?',
+                'resposta' => 'Não necessariamente. A frequência ideal depende da sua rotina e dos seus objetivos. Planos de 3 a 4 vezes por semana bem estruturados costumam trazer excelentes resultados para a maioria das pessoas. O mais importante é a consistência, e não a quantidade exagerada.'
             ],
             [
-                'pergunta' => 'Como garantir que o imóvel seja devolvido em bom estado?',
-                'resposta' => 'A melhor ferramenta é o Laudo de Vistoria. Ele deve ser realizado antes da entrega das chaves, contendo fotos e descrições detalhadas de todo o imóvel, servindo como prova comparativa no momento da desocupação.'
+                'pergunta' => 'Eu tenho uma lesão (ex: hérnia de disco, dor no joelho). Posso treinar assim mesmo?',
+                'resposta' => 'Sim, e deve! O treino personalizado é uma das melhores ferramentas para fortalecer a musculatura ao redor das articulações e aliviar dores. Nós adaptaremos ou evitaremos exercícios que causem desconforto, trabalhando em conjunto com as recomendações do seu médico ou fisioterapeuta.'
             ],
             [
-                'pergunta' => 'Preciso de exclusividade para anunciar com uma imobiliária?',
-                'resposta' => 'Não é obrigatório, mas a exclusividade garante que a imobiliária invista mais em marketing e fotos profissionais, além de centralizar o atendimento, evitando informações conflitantes em diferentes anúncios.'
+                'pergunta' => 'O plano de treino inclui dieta?',
+                'resposta' => 'O treino e o plano alimentar andam juntos, por isso eu ofereço orientações e metas de hábitos saudáveis. No entanto, cardápios específicos e planos alimentares calculados milimetricamente são de competência exclusiva do Nutricionista, profissional com quem costumo trabalhar em parceria para acelerar seus resultados.'
             ]
         ]
     ];
@@ -34,18 +34,6 @@
 
 <section id="faq" class="faq-section">
 
-    <svg 
-        xmlns="http://www.w3.org/2000/svg" 
-        viewBox="0 0 1440 320"
-        class="wave"
-        preserveAspectRatio="none"
-    >
-        <path 
-            fill="#ffffff" 
-            fill-opacity="1" 
-            d="M0,160L60,181.3C120,203,240,245,360,229.3C480,213,600,139,720,96C840,53,960,43,1080,53.3C1200,64,1320,96,1380,112L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
-        </path>
-    </svg>
 
     <h2 class="faq-main-title"><?php echo $faq_config['titulo']; ?></h2>
     

@@ -15,7 +15,6 @@
     background-position: center;
     background-attachment: fixed; /* Efeito de profundidade ao scrollar */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* animation: MoveInUp 1.3s ease-out forwards; */
     animation-delay: 0s;
 }
 
@@ -46,10 +45,25 @@
     font-weight: 800;
     margin-bottom: 15px;
     line-height: 1.2;
+    color: #ff0077;
     animation: fadeInUp 1.3s ease-out forwards;
     animation-delay: 0.1s;
     opacity: 0;
     text-align: left;
+}
+
+.spanHero{
+    animation: fadeInUp 1.3s ease-out forwards;
+    animation-delay: 0.13s;
+    display: inline-block;
+    opacity: 0;
+    background-color: rgba(42, 0, 54, 0.76);
+    font-weight: bold;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    letter-spacing: 4px;
 }
 
 .hero-subtitle {
@@ -64,14 +78,14 @@
 
 .hero-btn {
     display: inline-block;
-    background-color: #2564eb2d;
-    color: #00aeff;
+    background-color: #00000000;
+    color: white;
     padding: 15px 40px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    border: 2px solid #00c3ff;
+    border: 2px solid white;
     animation: fadeInUp 1.3s ease-out forwards;
     animation-delay: 0.16s;
     opacity: 0;
@@ -80,8 +94,8 @@
 
 .hero-btn:hover {
     background-color: transparent;
-    color: #ffffff;
-    border-color: #fff;
+    color: #ff0077;
+    border-color: #ff0077;
 }
 
 /* Animação de entrada */

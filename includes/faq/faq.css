@@ -2,14 +2,14 @@
     --faq-bg: #ffffff;
     --faq-border: #e0e0e0;
     --faq-text: hsl(0, 0%, 37%);
-    --faq-accent: #3498db;
+    --faq-accent: #c300ff;
     --faq-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .faq-section {
     width: 100%;
     font-family: sans-serif;
-    background-image: linear-gradient(to top, rgb(163, 170, 208), rgb(183, 192, 255));
+    background-color: white;
     position: relative;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -26,7 +26,7 @@
 .faq-main-title {
     text-align: center;
     margin-bottom: 30px;
-    color: white;
+    color: #222222;
 }
 
 .faq-item {

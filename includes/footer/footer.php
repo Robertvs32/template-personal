@@ -1,6 +1,6 @@
 <?php
 $anoAtual = date('Y');
-$nomeEmpresa = "Ruby Gold";
+$nomeEmpresa = "Daiane Tavares";
 $cnpj = "00.000.000/0001-00"; // Importante para credibilidade
 ?>
 
@@ -10,15 +10,14 @@ $cnpj = "00.000.000/0001-00"; // Importante para credibilidade
     <div class="container footer-grid">
         <div class="footer-box">
             <h3 class="footer-logo"><?php echo $nomeEmpresa; ?></h3>
-            <p class="footer-text">Especialistas em avaliação e compra de metais preciosos com transparência, segurança e a melhor cotação do mercado.</p>
+            <p class="footer-text">Personal Trainer especialista em hipertrofia e emagrecimento, com mais de 15 anos de experiencia na area, transformando vidas atraves do exercicio</p>
         </div>
 
         <div class="footer-box">
             <h4 class="footer-title">Contato</h4>
-            <p class="footer-contact">📍 R. Dom Pedro II, 185 - L.04 - Centro - Guarulhos</p>
-            <p class="footer-contact">📞 (11) 96968-2804 - Alex</p>
-            <p class="footer-contact">📞 (11) 94255-0065 - Adriano</p>
-            <p class="footer-contact">✉️ contato@rubygold.com</p>
+            <p class="footer-contact">📍 R. Cel. Quirino, 1817 - Cambuí, Campinas - SP, 13025-003</p>
+            <p class="footer-contact">📞 (19) 99821-3243 - Daiane Tavares</p>
+            <p class="footer-contact">✉️ contato@daianetavares.com</p>
         </div>
 
     </div>

@@ -1,21 +1,13 @@
 <?php
 $blocos = [
     [
-        'titulo' => 'Ambiente Seguro e Discreto',
-        'subtitulo' => 'Segurança Máxima',
-        'texto' => 'Nossa loja física conta com monitoramento 24h e salas de avaliação privada. Entendemos que a venda de joias e ouro exige total sigilo e conforto para você realizar sua transação com tranquilidade.',
-        'imagem' => './includes/features/images/ambiente.jpeg',
-        'botao' => 'Conhecer Loja',
-        'link' => '#'
-    ],
-    [
-        'titulo' => 'Ambiente Seguro e Discreto',
-        'subtitulo' => 'Segurança Máxima',
-        'texto' => 'Nossa loja física conta com monitoramento 24h e salas de avaliação privada. Entendemos que a venda de joias e ouro exige total sigilo e conforto para você realizar sua transação com tranquilidade.',
-        'imagem' => './includes/features/images/ambiente.jpeg',
-        'botao' => 'Conhecer Loja',
-        'link' => ''
-    ],
+        'titulo' => 'Alcance a mudanca que deseja, de uma vez por todas!',
+        'subtitulo' => 'Resultados garantidos',
+        'texto' => 'Com toda a experiencia adquirida ao longo de mais de 15 anos de profissao, garanto que seu objetivo e totalmente possivel! Desde que haja comprometimento no planejamento, o resultado e certo!',
+        'imagem' => './includes/features/images/daniela.jpg',
+        'botao' => 'Quero alcancar meus objetivos!',
+        'link' => 'https://client.mfitpersonal.com.br/out/signup-link/NzM2MzA=?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnY1uvEFb0v5xPI4Zk3Z8CenlIhUngQ3U_phK3jn0TzbCTxNUq7fa_vGMekfM_aem_kPtulZnuWTzfSRerYAX5DA'
+    ]
 ];
 ?>
 
